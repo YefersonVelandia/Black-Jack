@@ -18,70 +18,87 @@
             <div class="row mt-2">
                 <div class="col text-center">
                    
-                        <button class="btn btn-success">Nuevo juego</button>
-                        <button class="btn btn-warning"> Pedir Carta</button>
-                        <button class="btn btn-outline-danger"> Finalizar</button>
+                        <button id="btnNuevo" class="btn btn-success">Nuevo juego</button>
+                        <button id="btnPedir" class="btn btn-warning"> Pedir Carta</button>
+                        <button id="btnDetener" class="btn btn-outline-danger"> Finalizar</button>
                     
                 </div>
-            </div>    
-                <div class="card text-center mt-4" style="width: 55rem;" >
+            </div>   
+             
+                <div class="card text-center mt-4" style="width: 70rem;" >
                     <div class="card-header">
                         <h2> Jugador #1 Puntaje: <small>0</small></h2>
                     </div>
-                    <div class="card-body">
-                        
-                        <div class="row container">
+                        <div class="card-body">
+                            
+                            <div class="row container">
 
-                            <div class="col-md-4">
-                                <img src="assets/images/jugador.jpg" style="width: 160px;">
-                              </div>
-                            <div class="col">
-        
-                                <div id="juagdor-cartas">
-                                    <img class="carta" src="assets/cartas/10C.png">
-                                    <img class="carta" src="assets/cartas/10H.png">
-                                    <img class="carta" src="assets/cartas/4S.png">
-                                    <img class="carta" src="assets/cartas/10C.png">
-        
-                                </div>        
+                                <div class="col-md-4">
+                                    <img src="assets/images/jugador.jpg" style="width: 160px;">
+                                </div>
+                                <div class="col">
+            
+                                    <div id="jugador-cartas">
+                                                
+                                    </div>        
+                                </div>
                             </div>
                         </div>
-                    </div>
                     <div class="card-footer text-muted">
                       Jugando
                     </div>
-                  </div>
+                </div>
 
 
-                  <div class="card text-center mt-4" style="width: 55rem;" >
+                <div class="card text-center mt-4" style="width: 70rem;" >
                     <div class="card-header">
                         <h2> Computadora Puntaje: <small>0</small></h2>
                     </div>
-                    <div class="card-body">
-                        
-                        <div class="row container">
+                        <div class="card-body">
+                            
+                            <div class="row container">
 
-                            <div class="col-md-4">
-                                <img src="assets/images/maquina.jpg" style="width: 160px;">
-                              </div>
-                            <div class="col">
-        
-                                <div id="computadora-cartas">
-                                    <img class="carta" src="assets/cartas/10C.png">
-                                    <img class="carta" src="assets/cartas/10H.png">
-                                    <img class="carta" src="assets/cartas/4S.png">
-                                    <img class="carta" src="assets/cartas/10C.png">
-        
-                                </div>        
+                                <div class="col-md-4">
+                                    <img src="assets/images/maquina.jpg" style="width: 160px;">
+                                </div>
+                                <div class="col">
+            
+                                    <div id="computadora-cartas">
+                                                
+                                    </div>        
+                                </div>
                             </div>
                         </div>
-                    </div>
                     <div class="card-footer text-muted">
-                      
+                      Jugando
                     </div>
-                  </div>
+                </div>
 
+                <div class="card text-center mt-4" style="width: 70rem;" >
+                    <div class="card-header">
+                        <h2> Computadora Puntaje: <small>0</small></h2>
+                    </div>
+                        <div class="card-body">
+                            
+                            <div class="row container">
+
+                                <div class="col-md-4">
+                                    <img src="assets/images/maquina.jpg" style="width: 160px;">
+                                </div>
+                                <div class="col">
             
+                                    <div id="computadora-cartas">
+                                                
+                                    </div>        
+                                </div>
+                            </div>
+                        </div>
+                    <div class="card-footer text-muted">
+                      Jugando
+                    </div>
+                </div>
+
+                  
 
             <script src="assets/js/underscore-min.js"></script>
             <script src="assets/js/juego.js" ></script>
