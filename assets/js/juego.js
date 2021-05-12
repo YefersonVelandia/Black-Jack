@@ -132,8 +132,7 @@ const miModulo = (() => {
             btnDetener.disabled = true;
             turnoComputadora( puntosJugador );
 
-        } else if ( puntosJugador === 21 ) {
-            console.warn('21, genial!');
+        } else if ( puntosJugador === 21 ) {            
             btnPedir.disabled   = true;
             btnDetener.disabled = true;
             turnoComputadora( puntosJugador );
